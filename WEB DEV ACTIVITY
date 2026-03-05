@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Class Schedule Page</title>
+</head>
+<body>
+    <header>
+        <h1>Class Schedule</h1>
+    </header>
+
+    <main>
+        <!-- Ordered list example -->
+        <section>
+            <h2>Weekly Classes (Ordered List)</h2>
+            <ol>
+                <li>Monday - Math</li>
+                <li>Tuesday - Science</li>
+                <li>Wednesday - English</li>
+                <li>Thursday - History</li>
+                <li>Friday - Physical Education</li>
+            </ol>
+        </section>
+
+        <!-- Unordered list example -->
+        <section>
+            <h2>Class Materials (Unordered List)</h2>
+            <ul>
+                <li>Textbook</li>
+                <li>Notebook</li>
+                <li>Pen/Pencil</li>
+                <li>Laptop</li>
+            </ul>
+        </section>
+
+        <!-- Student Grade Table -->
+        <section>
+            <h2>Student Grade Table</h2>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Math</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Science</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Johnson</td>
+                        <td>English</td>
+                        <td>88</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Average Score</td>
+                        <td>
+                            <!-- Calculated average -->
+                            87.67
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    
